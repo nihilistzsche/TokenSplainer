@@ -1,0 +1,16 @@
+## Interface: 70000
+
+## Title: TokenSplainer
+## Notes: Shows what Tier Tokens and other items can be exchanged/used for
+## Author: Nathanyel
+## Version: r04
+
+TokenSplainer.lua
+DataBC.lua
+DataWotLK.lua
+DataCata.lua
+DataMoP.lua
+DataWoD.lua
+DataLegion.lua
+DataArmorTokens.lua
+DataEnsembles.lua
