@@ -1087,7 +1087,7 @@ TokenFrame:SetScript("OnEvent",function(self, event, arg, ...)
                  local tips = { GameTooltip, ItemRefTooltip }
                  if _G["AtlasLootTooltip"] then table.insert( tips, _G["AtlasLootTooltip"] ) end
                  for _,tooltip in pairs(tips) do
-                         tooltip:HookScript("OnTooltipSetItem", OnTooltip)
+                         TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Item, OnTooltip)
                          hooksecurefunc(tooltip, "SetHyperlink", OnTooltip)
                          tooltip:HookScript("OnHide", OnHide)
                          hooksecurefunc(tooltip, "FadeOut", OnFade)

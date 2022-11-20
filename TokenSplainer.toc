@@ -1,8 +1,8 @@
-## Interface: 70000
+## Interface: 100002
 
 ## Title: TokenSplainer
 ## Notes: Shows what Tier Tokens and other items can be exchanged/used for
-## Author: Nathanyel
+## Author: Nathanyel, Nihilistzsche (DF Update)
 ## Version: r04
 
 TokenSplainer.lua
