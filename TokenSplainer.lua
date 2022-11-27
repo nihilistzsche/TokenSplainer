@@ -836,7 +836,7 @@ local OnTooltip = function(tooltip)
 
          if not tooltip then return end
 
-         local _, link = tooltip:GetItem()
+         local link = tooltip:GetTooltipData()["hyperlink"]
          if not link then return end
          local _, _, itemID, ench, j1, j2, j3, j4, suffixID, uniqueID, level, spec, upgradeID, instanceDifficultyID, numBonusIds, bonus1, bonus2, bonus3, bonus4 =
                  string.find(link,"item:(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*):(%-?%d*)")
